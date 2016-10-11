@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Pauser : MonoBehaviour {
+	//TODO - consider merging this script with interface controller.
+
 
 	//this script handles pausing, time, and cursor specifics
 
@@ -29,10 +31,10 @@ public class Pauser : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown("Pause"))
+		/*if (Input.GetButtonDown("Pause"))
 		{
 			pauseButtonDown = !pauseButtonDown;
-		}
+		}*/
 
 		if (worldPaused == true){
 			Time.timeScale = 0;
