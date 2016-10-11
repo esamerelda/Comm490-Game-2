@@ -549,6 +549,6 @@ PlayerSettings:
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
   cloudProjectId: c5066875-d5a6-40fe-8e66-fdecfb36d478
-  projectName: 3D-CannonBox
+  projectName: Comm490_Game2
   organizationId: comm490
   cloudEnabled: 0
